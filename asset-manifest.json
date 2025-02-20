@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/it_global_test/static/css/main.c7ec3132.css",
+    "main.js": "/it_global_test/static/js/main.d692ebe2.js",
+    "index.html": "/it_global_test/index.html",
+    "main.c7ec3132.css.map": "/it_global_test/static/css/main.c7ec3132.css.map",
+    "main.d692ebe2.js.map": "/it_global_test/static/js/main.d692ebe2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7ec3132.css",
+    "static/js/main.d692ebe2.js"
+  ]
+}
