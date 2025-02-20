@@ -17,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "npm run deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "format": "yarn prettier --write ./src",
     "postinstall": "husky install"
