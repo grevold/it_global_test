@@ -1,5 +1,12 @@
+import { Layout } from "./components/Layout/Layout";
+import { MainPage } from "./pages/MainPage";
+
 function App() {
-  return <h1>Hello, world!</h1>;
+  return (
+    <Layout>
+      <MainPage />
+    </Layout>
+  );
 }
 
 export default App;
