@@ -2,6 +2,7 @@
   "name": "template-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://grevold.github.io/it_global_test/",
   "dependencies": {
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
