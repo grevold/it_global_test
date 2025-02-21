@@ -19,7 +19,7 @@ export const Layout = ({ children }: Props) => {
         <NavigationBar />
 
         <div className={s.form}>
-          <h1>Container</h1>
+          <MainPage />
         </div>
       </div>
     </div>
