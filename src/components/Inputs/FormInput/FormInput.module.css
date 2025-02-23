@@ -1,0 +1,31 @@
+.root {
+  width: 100%;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+}
+
+.input {
+  width: 100%;
+  min-height: 32px;
+  background-color: #fcfcfd;
+  border: 1px solid #d5d8dd;
+  border-radius: 4px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

@@ -5,6 +5,7 @@ import { NavigationBar } from "../NavigationBar/NavigationBar";
 import { MainPage } from "../../pages/MainPage";
 
 import s from "./Layout.module.css";
+import { Form } from "../Form/Form";
 
 interface Props {
   children: ReactNode;
@@ -19,7 +20,7 @@ export const Layout = ({ children }: Props) => {
         <NavigationBar />
 
         <div className={s.form}>
-          <MainPage />
+          <Form />
         </div>
       </div>
     </div>
