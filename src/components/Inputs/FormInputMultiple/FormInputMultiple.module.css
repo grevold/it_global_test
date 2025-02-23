@@ -1,0 +1,47 @@
+.root {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 4px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 4px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 12px;
+  right: 2px;
+  transform: translateY(-50%);
+}
+
+.input {
+  width: 100%;
+  min-height: 32px;
+  background-color: #fcfcfd;
+  border: 1px solid #d5d8dd;
+  border-radius: 4px;
+  padding: 6px 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: 4px;
+}
+
+.item {
+  background-color: #e5f4ff;
+  border: 1px solid #99d5ff;
+  border-radius: 4px;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
