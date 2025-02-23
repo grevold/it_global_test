@@ -9,7 +9,7 @@ export const FormHeader = () => {
         <h2 className={s.header}>Подзадача</h2>
         <Button type={ButtonTypes.default} text={"Создать"} />
       </div>
-      <div className={s.container}>
+      <div className={s.container_save}>
         <Button type={ButtonTypes.primary} text={"Сохранить"} />
         <Button type={ButtonTypes.default} text={"Сохранить и выйти"} />
       </div>
